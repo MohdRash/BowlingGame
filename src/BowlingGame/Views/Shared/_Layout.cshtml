@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html ng-app="gameModule">
+
+<head>
+    <title>The Bolwing Game - @ViewBag.Title</title>
+    <meta charset="utf-8"/>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/lib/bootswatch/cerulean/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.min.css"/>
+    <script src="~/lib/angular/angular.min.js"></script>
+    <script src="~/lib/bower-angular-route/angular-route.min.js"></script>
+    <link href="~/css/style.css" rel="stylesheet"/>
+    <link href="~/lib/animate.css/animate.min.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+
+<div id="header" class="page-header">
+    <h1>My bowling game</h1>
+</div>
+
+<div class="container">@RenderBody()</div>
+
+
+<div class="navbar navbar-fixed-bottom">
+    <p> Mohammed Elrasheed 2017 &copy;</p>
+</div>
+
+<footer class="footer"></footer>
+
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="~/scripts/angular/modules/gameModule.js"></script>
+<script src="~/scripts/angular/services/finalScoreService.js"></script>
+<script src="~/scripts/angular/services/gameService.js"></script>
+<script src="~/scripts/angular/controllers/gameController.js"></script>
+ <script src="~/scripts/angular/controllers/resultsController.js"></script>
+
+<script src="~/scripts/jquery/jqueryValidator.js"></script>
+
+    
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+﻿#footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.redBorder {
+    border:1px solid red;
+}
+
+body { padding-bottom: 70px; }
